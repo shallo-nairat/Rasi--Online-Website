@@ -1,0 +1,120 @@
+/* #trophy{
+    display: flex;
+}
+#guarantee{
+    display: flex;
+} */
+.guarantee{
+    display: flex;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 1px;
+    background-color: rgb(209, 235, 236);
+
+
+}
+#head1{
+    text-align:center;
+}
+#pic13{
+    width: 250px;
+
+}
+#rasi{
+    border: solid 1px;
+    background-color: #0aaf6a;
+    text-align: center;
+}
+#p{
+    color: #0aaf6a;
+}
+.images1{
+    display: flex;
+}
+.Tech{
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(3, 3, 31);
+}
+#phone{
+    width: 20px;
+}
+#head{
+    background: color #10e93f; ;
+}
+.first{
+    background-image: url(https://i.pinimg.com/236x/88/29/8d/88298d11403fe27ce1de35b05ec4a565.jpg);
+    color: white;
+    justify-content: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    
+
+}
+#button2{
+    color: white;
+    background-color: #0aaf6a;
+}
+.icons2{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.second{
+    display: flex;
+    justify-content: baseline;
+    gap: 90px;
+}
+#button1{
+    background-color: transparent;
+    border-radius: 10%;
+}
+.art{
+    display:flex;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+.photos{
+    width: 30px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+}
+.fourth{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    gap: 100px;
+    
+}
+.clothes{
+    display: flex;
+    width: 300px;
+    gap: 60px;
+
+}
+.work{
+    text-align: center;
+}
+#last{
+    text-align: center;
+}
+.map{
+    position: relative;
+}
+#contact{
+    position: absolute;
+    top: 0%;
+    width: 20px;
+    height: 20px;
+
+}
