@@ -3,3 +3,28 @@
 // Given an array of objects, where each object represents an employee with an id, name, and salary property, write a function that returns a new array of employee objects sorted by their salary in ascending order.
 // Write a function that accepts an array of numbers and uses the forEach() method to console.log each number multiplied by 2.
 // Write a function that takes in an array of numbers and consoles the first four items multiplied by 8 and the last two added by 5. Console the array with the new values
+
+
+
+const items=['pen','ruler','sharpener'];
+
+function itemsSort(arr){
+    arr.sort((a,b)=>b-a);
+    return arr;
+}
+ 
+let numbers =[8,20,23,34]
+function checkNumbers() {
+    let arr =arr.forEach(Number => {
+       if (Number > 0) {
+         console.log("positive");
+       } else if (Number < 0) {
+         console.log("negative");
+       } else {
+         console.log("zero");
+       }
+    });
+   }
+   console.log((checkNumbers))
+
+
