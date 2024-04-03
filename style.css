@@ -50,7 +50,7 @@
 }
 .first{
     background-image: url(https://i.pinimg.com/236x/88/29/8d/88298d11403fe27ce1de35b05ec4a565.jpg);
-    color: white;
+    color: rgb(7, 6, 6);
     justify-content: center;
     background-repeat: no-repeat;
     text-align: center;
@@ -110,11 +110,4 @@
 }
 .map{
     position: relative;
-}
-#contact{
-    position: absolute;
-    top: 0%;
-    width: 20px;
-    height: 20px;
-
 }

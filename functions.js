@@ -6,25 +6,96 @@
 
 
 
-const items=['pen','ruler','sharpener'];
+// const items=['pen','ruler','sharpener'];
 
-function itemsSort(arr){
-    arr.sort((a,b)=>b-a);
-    return arr;
-}
+// function itemsSort(arr){
+//     arr.sort((a,b)=>b-a);
+//     return arr;
+// }
  
-let numbers =[8,20,23,34]
-function checkNumbers() {
-    let arr =arr.forEach(Number => {
-       if (Number > 0) {
-         console.log("positive");
-       } else if (Number < 0) {
-         console.log("negative");
-       } else {
-         console.log("zero");
-       }
-    });
+// let numbers =[8,20,23,34]
+// function checkNumbers() {
+//     let arr =arr.forEach(Number => {
+//        if (Number > 0) {
+//          console.log("positive");
+//        } else if (Number < 0) {const items=['pen','ruler','sharpener'];
+
+// function itemsSort(arr){
+//     arr.sort((a,b)=>b-a);
+//     return arr;
+// } 
+ 
+// let numbers =[8,20,23,34]
+// function checkNumbers() {
+//     let arr =arr.forEach(Number => {
+//        if (Number > 0) {
+//          console.log("positive");
+//        } else if (Number < 0) {
+//          console.log("negative");
+//        } else {
+//          console.log("zero");
+//        }
+//     });
+//    }
+//    console.log((checkNumbers))
+//          console.log("negative");
+//        } else {
+//          console.log("zero");
+//        }
+//     });
+//    }
+//    console.log((checkNumbers))
+
+   function reverseStringsInArray(arr){
+
+    const reversedStrings=arr.map(str=>[...str].reverse().join(''));
+    console.log(reversedStrings);
    }
-   console.log((checkNumbers))
+    
+   //examples
+   reverseStringsInArray(['Jemimah','Hawah','Karisa','Hamida'])
+   //sort
 
+    function checkElements(array,index){
+      const number =array[index];
 
+      if (number>0){
+        return number + "is positive";
+      } else if (number< 0){
+        return number + "is negative";
+      } else {
+        return number + "is zero";
+
+      }
+    }
+    const number= [4,8,10,12]
+    console.log(checkElements(number,3))
+
+    function sortEmployees(employees){
+      return employees.sort((a, b)=> a.salary - b.salary);
+
+    }
+    const employees= [
+      {id:1, name:'Nakato', salary:5500},
+      {id:2 , name: 'Zeinab', salary:6500},
+      {id:3 , name: 'Bella', salary:4000}, //compare the number in elements .we cant sort string
+    ]
+
+    const sortBySalary= sortEmployees(employees);
+    console.log(sortBySalary);
+
+    function multipliedNumbers (numbers){
+      numbers.forEach(element => {
+        console.log(element*2)
+      });
+    }
+    multipliedNumbers([3,9,2,4])
+
+    function changeArray(arr){
+      const firstFour=arr.slice(0,4).map(item=>item*8);
+      const lastTwo =arr.slice(-2).map(item=>item+5);
+      const newArray= firstFour.concat(lastTwo);
+      console.log(newArray)
+
+    }
+    changeArray([3,9,2,4])
